@@ -1,0 +1,90 @@
+h1{
+	font-family: monospace;
+	margin: 0;
+}
+h2{
+	font-family: monospace;
+	margin: 0;
+}
+
+header {
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#title{
+	float: left;
+}
+#main-nav{
+	font-size: 8.94px;
+}
+
+
+top-bar {
+	position: absolute;
+}
+
+ul {
+	font-size: 15px;
+	list-style-type: none;
+	float: right;
+}
+
+li {
+	padding-top: 8px;
+	margin: 0 10px;
+	float: left;
+	font-family: monospace;
+	font-weight: bold;
+}
+a.highlight:hover {
+	color: #7e097e;
+}
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+	100%{color:#FA00A7;}		
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+	100%{color:#FA00A7;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+	100%{color:#FA00A7;}
+}
