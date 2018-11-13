@@ -117,3 +117,34 @@ body {
 	text-align: center;
 	margin-top: 60px;
 }
+
+
+.col-1-of-15 {
+	top: 25px;
+	position: relative;
+	width: 6%;
+	margin: 0 .32%;
+	float: left;
+}
+
+.fuckjosh {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.row {
+	height: auto;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container2 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 20px;
+}
